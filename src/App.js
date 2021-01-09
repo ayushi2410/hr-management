@@ -24,14 +24,11 @@ function App() {
   
   return (
     <div className="App">
-       <header>
+       <div id="header">
         <Navbar/>
-       </header>
-      <div className="con-body mt-0">
-      <div className="d-flex flex-column">
-      <div className="mt-0">
-      <PermanentDrawerLeft/></div>
-      </div>
+       </div>
+      <div className="side_menu">
+      <PermanentDrawerLeft/>
       </div>
      </div>
   

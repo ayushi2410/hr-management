@@ -1,13 +1,18 @@
 import M from 'materialize-css';
 export default function PermanentDrawerLeft() {
   return (
-    <div className="container-fluid darken-1 blue-grey col drawer w-100">
-     <div className="w-100 white-text">Dashboard</div>
-     <div className="w-100 white-text">Add Employee</div>
-     <div className="w-100 white-text">General Management</div> 
-     <div className="w-100 white-text">Leaves</div>
-     <div className="w-100 white-text">Add user</div>
-     <div className="w-100 white-text">Generate reports</div>
+    <div className="aside_wrap">
+    <ul className="list_snb">
+     <li className="w-100 white-text"><a href="#"className="white-text">Dashboard</a></li>
+     <li className="w-100 white-text"><a href="#" className="white-text">Add Employee</a></li>
+     <li className="w-100 white-text"><a href="#"className="white-text">General Management</a></li> 
+     <li className="w-100 white-text"><a href="#"className="white-text">Leaves</a></li>
+     <li className="w-100 white-text"><a href="#"className="white-text">Add user</a></li>
+     <li className="w-100 white-text"><a href="#"className="white-text">Generate reports</a></li>
+     <li className="w-100">
+    <img className="img_day" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQjxnQMsJXKtywz_TK8lk0jYvOPNSrhrq8w&usqp=CAU" alt="good day"/>
+     </li>
+     </ul>
     </div>
   );
 }
